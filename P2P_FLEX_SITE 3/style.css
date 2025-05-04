@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #0d0d1a;
+  color: #e0e0ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0a0a15;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  color: #88f;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #00f2ff, #8f00ff);
+  color: white;
+}
+
+.cta-button {
+  background: #ff00d4;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+section {
+  padding: 60px 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  background-color: #8f00ff;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #0a0a15;
+  color: #777;
+}
